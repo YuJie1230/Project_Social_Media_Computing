@@ -1,3 +1,11 @@
+
+
+## Dataset Download
+The dataset is quite large and can't be stored directly on GitHub. You can easily download it from Google Drive.
+https://drive.google.com/file/d/1thCGeUGaJXqMEVErYN6fItVeJJPLnt89/view?usp=drive_link
+
+---
+
 # Social Media Computing - Sentiment Analysis Dashboard
 
 This project provides an interactive Streamlit dashboard to visualize sentiment prediction results from three different models in a single interface:
@@ -38,3 +46,9 @@ streamlit run app.py
 
 ```bash
 pip install streamlit pandas matplotlib seaborn wordcloud
+```
+
+
+
+
+
