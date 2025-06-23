@@ -1,33 +1,40 @@
 # Social Media Computing - Sentiment Analysis Dashboard
 
-This project provides **interactive dashboards** to visualize sentiment prediction results from three different models:
+This project provides an interactive Streamlit dashboard to visualize sentiment prediction results from three different models in a single interface:
 
-- `app_ml.py` — Machine Learning model dashboard  
-- `app_dl.py` — Deep Learning model dashboard  
-- `app_transformers.py` — Transformers (BERT-based) model dashboard
-
-Each dashboard shows:
-- Sentiment distribution
-- Word cloud by sentiment
-- Aspect-wise sentiment analysis(app_transformers.py only)
-- Sample predicted reviews
+- Machine Learning model
+- Deep Learning model
+- Transformers (BERT-based) model
 
 ---
 
-## How to Run Each Dashboard
+## Dashboard Features
 
-- `app_ml.py` — streamlit run app_ml.py
-- `app_dl.py` — streamlit run app_dl.py
-- `app_transformers.py` — streamlit run app_transformers.py
-- 
-### Requirements:
+- Select and compare results from ML, DL, and Transformer models
+- Visualize sentiment distribution
+- Generate word clouds by sentiment
+- Perform aspect-wise sentiment analysis (available for Transformer model)
+- View sample predicted reviews for each model and sentiment
+
+---
+
+## How to Run the Dashboard
+
+Run the combined dashboard using the following command:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Requirements
+
 - Streamlit
 - Pandas
 - Matplotlib
 - Seaborn
 - WordCloud
-
-You can install them with:
 
 ```bash
 pip install streamlit pandas matplotlib seaborn wordcloud
